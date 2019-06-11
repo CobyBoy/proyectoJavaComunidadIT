@@ -1,0 +1,120 @@
+@charset "ISO-8859-1";
+* {margin:0; padding: 0;}
+* {box-sizing: border-box;}
+
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+color: white;	
+background-color: #1f4956;}
+
+form {
+	font-size:20px;
+margin:auto;
+  width: 30rem;
+  margin-top:2%;
+ 
+}
+
+input {
+  width: 30rem;
+   padding: 4px 15px; 
+}
+
+
+
+input[type=text] {
+  font-size:16px;
+}
+.button {
+	width: 30rem;
+	background-color: #4CAF50;
+  border-radius: 5px ;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 1px;
+  cursor: pointer;
+}
+input:focus {
+	background-color:#c2c2d6;
+	
+	
+}
+
+#tablabd {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto;
+}
+
+#tablabd  td, #tablabd  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablabd tr{background-color: #f2f2f2; color:black;}
+
+#tablabd tr:hover {background-color: #ddd;}
+
+#tablabd th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+#formulario1{
+	
+}
+
+#formulario1{
+	float: left;
+	margin-top:0;
+}
+
+
+#formulario3{
+	width:30rem;
+	background-color:blac;
+}
+
+#form3{
+	background-color:black;
+	width:50%;
+}
+
+#padrenuevoinsert{
+	float:right;
+}
+
+
+#botonesinsert {
+	float:right;
+}
+
+
+.sqlexception{
+	background-color:red;
+}
+
+.camposVacios{
+	background-color:red;
+	text-align:center;
+}
+
+.nuevaentrada {
+	float:right;
+}
+
+[value=Inicio]{
+	float:left;
+}
+
+h1{
+	text-align:center;
+}

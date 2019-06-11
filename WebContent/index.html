@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="indexstyle.css">
+<title>INDEX</title>
+</head>
+<body>
+<form action="MostrarBD" method="get" id="formulario1">
+		<input type="submit" value="Mostrar BD" class="button">
+	<div class="nuevaentrada">
+	 	<input type="button" value="Agregar Entrada" onclick='crearInput()' class="button">
+		<input type="button" value="Eliminar Entrada" onclick='eliminarInput()' class="button">
+	</div>
+		
+</form>
+
+<div id="fomr3">
+	<form action="DeleteBD" method="post" id="formulario3">
+	
+		<div>
+		ID:<input type="number" name="ID" min="1" max ="10" value="1"><br>			
+ 		
+		<input type="submit" value="DELETE FROM  BD" class="button">
+		
+		<input type=submit formaction=DeleteALL  value="DELETE ALL" class=button>
+		</div>
+ 		
+	</form>
+</div>
+
+
+<div>
+
+<form action="InsertBD" method="post" id="formulario1">
+<div>
+	
+	
+	
+		Nombre completo: 
+ 		<input type="text" name="nombre" placeholder="Inserte su nombre"><br>
+		Nombre de usuario
+ 		<input type="text" name="usuario" placeholder="Inserte su nombre de usuario(long=10)"><br>
+		E-mail:
+ 		<input type="text" name="email" placeholder="Inserte su e-mail"><br>
+ 		ID:
+ 		<input type="number" name="ID" min="1" max ="10" value="1"><br>
+</div>
+<div id="padrenuevoinsert">
+<div id="nuevoInsert"></div>
+</div>
+	
+	
+	
+	<div id="botonesinsert">
+
+ 		 
+ 		<input type="reset" value="Reset Valores" class="button">
+ 		
+		<input type="submit" value="INSERT INTO BD" class="button">
+		
+		<input type=submit formaction=InsertALL  value="INSERT todas las entradas" class=button>
+		<input type=submit formaction=UpdateBD  value="UPDATE BD" class=button>
+		<input type=submit formaction=UpdateALL  value="UPDATE todas las entradas" class=button>
+ 	</div>
+		
+</form>
+</div>
+
+
+
+
+
+
+
+
+	
+<script src="crearFormulario.js"></script> 
+</body>
+</html>
